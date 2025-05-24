@@ -1,9 +1,10 @@
 import PerformanceOverlay from "@/components/PerformanceOverlay";
-import "../global.css";
 
 import { Drawer } from "expo-router/drawer";
 import { StatusBar } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
+
+import "../global.css";
 
 export default function Layout() {
   return (
@@ -19,13 +20,8 @@ export default function Layout() {
             },
           }}
         >
-          <Drawer.Screen
-            name="index" // This is the name of the page and must match the URL from root
-            options={{
-              drawerLabel: "Home",
-              title: "overview",
-            }}
-          />
+          <Drawer.Screen name="index" />
+          <Drawer.Screen name="layouts" />
         </Drawer>
       </GestureHandlerRootView>
     </>
