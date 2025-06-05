@@ -21,7 +21,42 @@ export default function Layout() {
           }}
         >
           <Drawer.Screen name="index" />
-          <Drawer.Screen name="layouts" />
+          <Drawer.Screen
+            name="0-skia-basic"
+            options={{ title: "Skia Artboard" }}
+          />
+          <Drawer.Screen
+            name="1-gestures"
+            options={{ title: "Reanimated - Pan Gesture 1" }}
+          />
+          <Drawer.Screen
+            name="1-reanimated-basic"
+            options={{ title: "Reanimated Basic - Pan Gesture 2" }}
+          />
+          <Drawer.Screen
+            name="0-reanimated-basic"
+            options={{ title: "Reanimated Basic - Spring and Transform" }}
+          />
+
+          <Drawer.Screen
+            name="0-layouts-grid"
+            options={{ title: "Grid of Cards" }}
+          />
+
+          <Drawer.Screen
+            name="0-masonry-gallery"
+            options={{ title: "Masonry Gallery 1" }}
+          />
+
+          <Drawer.Screen
+            name="1-reanimated-scroll"
+            options={{ title: "Reanimated Scroll - 1" }}
+          />
+
+          <Drawer.Screen
+            name="0-flatlist"
+            options={{ title: "Animated FlatList - 0" }}
+          />
         </Drawer>
       </GestureHandlerRootView>
     </>

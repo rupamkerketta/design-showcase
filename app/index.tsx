@@ -1,5 +1,4 @@
-import DemoCard from "@/components/DemoCard";
-import { View } from "react-native";
+import { Text, View } from "react-native";
 
 export default function Index() {
   return (
@@ -10,7 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <DemoCard title="DemoCard" />
+      <Text>Design Showcase - Rupam Kerketta</Text>
     </View>
   );
 }
