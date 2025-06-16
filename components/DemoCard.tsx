@@ -15,7 +15,7 @@ const DemoCardView = ({
   return (
     <Pressable
       onPress={onPress}
-      className="w-[30%] rounded-xl items-center justify-center bg-slate-800"
+      className="w-full px-1 rounded-xl items-center justify-center bg-slate-800"
       style={({ pressed }) => [
         {
           opacity: pressed ? 0.7 : 1,

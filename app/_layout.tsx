@@ -57,6 +57,26 @@ export default function Layout() {
             name="0-flatlist"
             options={{ title: "Animated FlatList - 0" }}
           />
+
+          <Drawer.Screen
+            name="0-segmented-control"
+            options={{ title: "Segmented Control" }}
+          />
+
+          <Drawer.Screen
+            name="0-bar-chart"
+            options={{ title: "Bar Chart 0" }}
+          />
+
+          <Drawer.Screen
+            name="0-onboarding"
+            options={{ title: "Onboarding - Page Dots" }}
+          />
+
+          <Drawer.Screen
+            name="0-chat-ui-performance"
+            options={{ title: "Chat UI Performance - LegendList" }}
+          />
         </Drawer>
       </GestureHandlerRootView>
     </>
